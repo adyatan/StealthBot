@@ -11,7 +11,7 @@ from telegram.utils.helpers import mention_html
 from stealth.modules.helper_funcs.chat_status import user_not_admin, user_admin
 from stealth.modules.log_channel import loggable
 from stealth.modules.sql import reporting_sql as sql
-from stealth import dispatcher, LOGGER, SUDO_USERS, 
+from stealth import dispatcher, LOGGER, SUDO_USERS
 
 REPORT_GROUP = 5
 REPORT_IMMUNE_USERS = SUDO_USERS
