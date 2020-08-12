@@ -74,10 +74,6 @@ def gban(bot: Bot, update: Update, args: List[str]):
             "OOOH someone's trying to gban a Whitelisted user. *grabs popcorn*")
         return
 
-    if int(user_id) in :
-        message.reply_text("That's a Whitelisted user! They cannot be banned!")
-        return
-
     if int(user_id) in WHITELIST_USERS:
         message.reply_text("That's a Whitelisteduser! They cannot be banned!")
         return
