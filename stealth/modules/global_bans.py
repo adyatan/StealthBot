@@ -10,7 +10,7 @@ from telegram.ext import CommandHandler, MessageHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
 import stealth.modules.sql.global_bans_sql as sql
-from stealth import dispatcher, OWNER_ID, SUDO_USERS, DEV_USERS, SUPPORT_USERS, , WHITELIST_USERS, STRICT_GBAN, GBAN_LOGS, spam_watch
+from stealth import dispatcher, OWNER_ID, SUDO_USERS, DEV_USERS, SUPPORT_USERS, WHITELIST_USERS, STRICT_GBAN, GBAN_LOGS, spam_watch
 from stealth.modules.helper_funcs.chat_status import user_admin, is_user_admin, support_plus
 from stealth.modules.helper_funcs.extraction import extract_user, extract_user_and_text
 from stealth.modules.helper_funcs.misc import send_to_list

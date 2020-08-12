@@ -12,7 +12,7 @@ from telegram.ext import MessageHandler, Filters, CommandHandler, run_async, Cal
 from telegram.utils.helpers import mention_markdown, mention_html, escape_markdown
 
 import stealth.modules.sql.welcome_sql as sql
-from stealth import dispatcher, OWNER_ID, DEV_USERS, SUDO_USERS, SUPPORT_USERS, , WHITELIST_USERS, LOGGER, spam_watch
+from stealth import dispatcher, OWNER_ID, DEV_USERS, SUDO_USERS, SUPPORT_USERS, WHITELIST_USERS, LOGGER, spam_watch
 from stealth.modules.helper_funcs.chat_status import user_admin, is_user_ban_protected
 from stealth.modules.helper_funcs.misc import build_keyboard, revert_buttons
 from stealth.modules.helper_funcs.msg_types import get_welcome_type

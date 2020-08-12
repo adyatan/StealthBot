@@ -6,7 +6,7 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from stealth import dispatcher, LOGGER, DEV_USERS, SUDO_USERS, , BAN_STICKER
+from stealth import dispatcher, LOGGER, DEV_USERS, SUDO_USERS, BAN_STICKER
 from stealth.modules.disable import DisableAbleCommandHandler
 from stealth.modules.helper_funcs.chat_status import (
     bot_admin,

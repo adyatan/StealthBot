@@ -316,7 +316,7 @@ async def doctype(name, size, type, canvas):
         draw2.text((320, 40), name, font=font, fill="white")
         draw2.text(
             (320, 97), size
-            + type , font=font, fill="#AAAAAA")
+            + type font=font, fill="#AAAAAA")
         return canvas
 
 async def no_photo(reply, tot):

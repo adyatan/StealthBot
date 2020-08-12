@@ -12,7 +12,7 @@ from telegram import ParseMode, Update, Bot, MessageEntity, InlineKeyboardMarkup
 from telegram.ext import run_async, CommandHandler, CallbackQueryHandler
 from telegram.utils.helpers import mention_html, mention_markdown
 
-from stealth import dispatcher, OWNER_ID, SUDO_USERS, WHITELIST_USERS, , GBAN_LOGS, LOGGER
+from stealth import dispatcher, OWNER_ID, SUDO_USERS, WHITELIST_USERS, GBAN_LOGS, LOGGER
 from stealth.modules.helper_funcs.chat_status import is_user_admin
 from stealth.modules.helper_funcs.extraction import extract_user, extract_unt_fedban, extract_user_fban
 from stealth.modules.helper_funcs.string_handling import markdown_parser

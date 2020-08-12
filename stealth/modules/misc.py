@@ -9,7 +9,7 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async, Filters
 from telegram.utils.helpers import mention_html
 
-from stealth import dispatcher, OWNER_ID, SUDO_USERS, SUPPORT_USERS, DEV_USERS, , WHITELIST_USERS
+from stealth import dispatcher, OWNER_ID, SUDO_USERS, SUPPORT_USERS, DEV_USERS, WHITELIST_USERS
 from stealth.__main__ import STATS, USER_INFO, TOKEN
 from stealth.modules.disable import DisableAbleCommandHandler
 from stealth.modules.helper_funcs.chat_status import user_admin, sudo_plus
