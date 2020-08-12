@@ -35,14 +35,6 @@ def warn(
         # message.reply_text("Damn admins, They are too far to be One Punched!")
         return
 
-    if user.id in :
-        if warner:
-            message.reply_text("I can't warn this user.")
-        else:
-            message.reply_text(
-                "I can't warn this user.")
-        return
-
     if user.id in WHITELIST_USERS:
         if warner:
             message.reply_text("I can't warn this user.")
