@@ -514,10 +514,6 @@ def fed_ban(bot: Bot, update: Update, args: List[str]):
         message.reply_text("Dragons cannot be fed banned!")
         return
 
-    if int(user_id) in :
-        message.reply_text("Tigers cannot be fed banned!")
-        return
-
     if int(user_id) in WHITELIST_USERS:
         message.reply_text("Wolves cannot be fed banned!")
         return
