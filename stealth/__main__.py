@@ -21,19 +21,19 @@ Hi {}, my name is {}!
 // I am an Anime themed group management bot with a lot of Special Features.
 You can find the list of available commands with /help.
 ==========================
--> [stealth's Repo](https://waa.ai/stealth)
+-> [stealth's Repo](https://github.com/adyatan/StealthBot)
 -> Report [stealth Support](https://t.me/stealthSupport) if I go offline
 ==========================
-`Maintained by` @YorktownEagleUnion
+`Maintained by` @AdyataN
 
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a part of Eagle Union.
+I'm a part of Stealth Federation
 Have a look at the following for an idea of some of \
 the things I can help you with.
-I'm managed by [Poki](https://t.me/pokurt)
+Meet my masters [Adyatan](https://t.me/Adyatan) & [_undead](https://t.me/mukul2259)
 Chatbot module from [TheRealPhoenixBot](https://github.com/rsktg/TheRealPhoenixBot.git)
 Disaster module from [SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot)
 *Main* commands available:
@@ -49,10 +49,10 @@ Disaster module from [SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-stealth_IMG = "https://telegra.ph/file/35005c01182645232f2d3.jpg"
+stealth_IMG = "https://res.cloudinary.com/adyatani/image/upload/v1594192164/StealthLogo.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-stealth is hosted on one of Digital Ocean Servers. \
+Stealth is hosted on one of Digital Ocean Servers. \
 You can donate to the original writer of the Base code, Paul
 There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
