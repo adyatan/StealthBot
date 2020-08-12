@@ -14,7 +14,7 @@ from stealth.modules.sql import reporting_sql as sql
 from stealth import dispatcher, LOGGER, SUDO_USERS, 
 
 REPORT_GROUP = 5
-REPORT_IMMUNE_USERS = SUDO_USERS + 
+REPORT_IMMUNE_USERS = SUDO_USERS
 
 
 @run_async
