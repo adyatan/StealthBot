@@ -6,7 +6,7 @@ from telegram.error import BadRequest
 from telegram.ext import MessageHandler, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from stealth import dispatcher, WHITELIST_USERS,
+from stealth import dispatcher, WHITELIST_USERS
 from stealth.modules.helper_funcs.chat_status import is_user_admin, user_admin, can_restrict, connection_status
 from stealth.modules.log_channel import loggable
 from stealth.modules.sql import antiflood_sql as sql
