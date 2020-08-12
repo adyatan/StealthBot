@@ -33,7 +33,7 @@ def check_user(user_id: int, bot: Bot, chat: Chat) -> Optional[str]:
         reply = "I'm not gonna MUTE myself, How high are you?"
         return reply
 
-    if is_user_admin(chat, user_id, member) or user_id in :
+    if is_user_admin(chat, user_id, member):
         reply = "I really wish I could mute admins...Perhaps a Punch?"
         return reply
 
