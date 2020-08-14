@@ -60,13 +60,13 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/LyndaRobot
-RUN git clone https://github.com/pokurt/LyndaRobot.git /root/LyndaRobot
+RUN git clone https://github.com/adyatan/StealthBot.git /root/StealthBot
 WORKDIR /root/LyndaRobot
 
-ENV PATH="/home/lynda/bin:$PATH"
+ENV PATH="/home/stealth/bin:$PATH"
 
 # Install requirements
 RUN sudo pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","lynda"]
+CMD ["python3","-m","stealth"]
