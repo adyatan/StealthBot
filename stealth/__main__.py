@@ -18,7 +18,7 @@ from stealth.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 Hi {}, my name is {}!
-// I am an Anime themed group management bot with a lot of Special Features.
+// I am a group management bot with a lot of Special Features.
 You can find the list of available commands with /help.
 ==========================
 -> [stealth's Repo](https://github.com/adyatan/StealthBot)
