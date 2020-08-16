@@ -1,4 +1,5 @@
 from telegram import error
+from functools import wraps
 
 
 def send_message(message, text, *args, **kwargs):
